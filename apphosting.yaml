@@ -1,7 +1,10 @@
 run:
   instanceCount:
     min: 0
-    max: 3
+    max: 10
   resources:
     cpu: 1
     memoryMiB: 512
+  env:
+    - name: OPENAI_API_KEY
+      secret: OPENAI_API_KEY
