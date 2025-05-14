@@ -1,3 +1,6 @@
+name: pixel-poet
+region: asia-east1
+
 run:
   max_instances: 10
   memory: 512Mi
